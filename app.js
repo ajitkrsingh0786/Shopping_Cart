@@ -10,7 +10,16 @@ const cartTotal = document.querySelector('.cart-total');
 const cartContent = document.querySelector('.cart-content');
 const productDOM = document.querySelector('.products-center');
 
+<<<<<<< HEAD
+//shop Now
+document.getElementById("someid").onclick = function () {
+     
+    window.location ="#navigateHere";
+};
+
+=======
    
+>>>>>>> 366eecec4f6cf18b5535147ae6a8ef5dea6c3577
 //cart
 let cart=[];
 
@@ -37,6 +46,30 @@ class Products {
      
  }
 } 
+<<<<<<< HEAD
+//Search Products
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  function filterFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("myDropdown");
+    a = div.getElementsByTagName("a");
+    for (i = 0; i < a.length; i++) {
+      txtValue = a[i].textContent || a[i].innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        a[i].style.display = "";
+      } else {
+        a[i].style.display = "none";
+      }
+    }
+  }
+//End Search Products
+=======
+>>>>>>> 366eecec4f6cf18b5535147ae6a8ef5dea6c3577
 //display products
 class UI {
       displayProducts(products){
