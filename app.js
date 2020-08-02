@@ -10,16 +10,13 @@ const cartTotal = document.querySelector('.cart-total');
 const cartContent = document.querySelector('.cart-content');
 const productDOM = document.querySelector('.products-center');
 
-<<<<<<< HEAD
+
 //shop Now
 document.getElementById("someid").onclick = function () {
      
     window.location ="#navigateHere";
 };
 
-=======
-   
->>>>>>> 366eecec4f6cf18b5535147ae6a8ef5dea6c3577
 //cart
 let cart=[];
 
@@ -46,7 +43,7 @@ class Products {
      
  }
 } 
-<<<<<<< HEAD
+
 //Search Products
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -68,8 +65,6 @@ function myFunction() {
     }
   }
 //End Search Products
-=======
->>>>>>> 366eecec4f6cf18b5535147ae6a8ef5dea6c3577
 //display products
 class UI {
       displayProducts(products){
